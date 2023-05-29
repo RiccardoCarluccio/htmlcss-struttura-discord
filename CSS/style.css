@@ -61,3 +61,67 @@ header > div{
   vertical-align: auto;
   align-items: center;
 }
+
+hr{
+  height: 5px;
+  background-color: rgba(173,216,230,255);
+  border: none;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container-main{
+  display: flex;
+  width: 100%;
+}
+
+.flex-container-squares{
+  height: 550px;
+  margin: auto;
+  display: flex;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-grey{
+  background-color: rgba(211,211,211,255);
+}
+
+.box{
+  margin: auto;
+  align-items: center;
+  height: 450px;
+}
+
+.square-celeste{
+  width: 750px;
+  background-color: rgba(30,144,255,255);
+}
+
+.square-pink{
+  width: 500px;
+  background-color: rgba(255,192,203,255);
+}
+
+.order{
+  order: -1;
+}
+
+/* header > div{
+  height: 400px;
+  width: 980px;
+  background-color: rgba(238,130,238,255);
+  margin: auto;
+  vertical-align: auto;
+  align-items: center;
+} */
+
+.square-green{
+  width: 500px;
+  background-color: rgba(34,139,34,255);
+}
