@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.dashed-border{
+  border: 2px dashed black;
+}
+
 nav{
   background-color: rgba(173,216,230,255);
   min-height: 100px;
@@ -22,11 +26,11 @@ nav{
 }
 
 .nav-container div{
-  border: 2px dashed black;
   background-color: rgba(218,165,32,255);
   padding: 5px;
   font-size: 30px;
   align-self: center;     /* check sull'altezza */
+  border: 2px dashed black;
 }
 
 .nav-container div:first-child{
@@ -41,4 +45,19 @@ nav{
 .nav-container div:last-child{
   flex-grow: 1;
   text-align: end;
+}
+
+header{
+  height: 500px;
+  background-color: rgba(0,0,139,255);
+  display: flex;
+}
+
+header > div{
+  height: 400px;
+  width: 980px;
+  background-color: rgba(238,130,238,255);
+  margin: auto;
+  vertical-align: auto;
+  align-items: center;
 }
