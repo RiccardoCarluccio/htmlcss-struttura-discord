@@ -8,10 +8,13 @@
   border: 2px dashed black;
 }
 
+.flexbox{
+  display: flex;
+}
+
 nav{
   min-height: 100px;
   background-color: rgba(173,216,230,255);
-  display: flex;
 }
 
 .nav-container{
@@ -20,7 +23,6 @@ nav{
   width: 75%;
   margin: auto;
   padding: 10px 0;
-  display: flex;
   justify-content: space-between;
   align-self: center;
 }
@@ -50,7 +52,6 @@ nav{
 header{
   height: 500px;
   background-color: rgba(0,0,139,255);
-  display: flex;
 }
 
 header > div{
@@ -76,19 +77,16 @@ hr:nth-of-type(2){
 }
 
 main{
-  display: flex;
   flex-wrap: wrap;
 }
 
-.flex-container{
-  display: flex;
+.container{
   width: 100%;
 }
 
-.flex-container-squares{
+.container-squares{
   height: 550px;
   margin: auto;
-  display: flex;
 }
 
 .bg-white{
@@ -131,7 +129,6 @@ main{
   height: 800px;
   width: 100%;
   margin: auto;
-  display: flex;
   align-items: center;
 }
 
@@ -142,13 +139,12 @@ main{
   margin: auto;
 }
 
-.flex-container-rectangles{
+.container-rectangles{
   height: 650px;
   margin: -35px auto auto;
-  display: flex;
 }
 
-.box-long{
+.rectangle{
   margin: auto;
   align-items: center;
   height: 550px;
@@ -164,20 +160,17 @@ main{
   background-color: rgba(32,178,170,255);
 }
 
-.flex-container-outro{
+.container-outro{
   min-height: 125px;
-  display: flex;
   align-items: center;
 }
 
 .footer-container{
-  display: flex;
   height: 90px;
   max-width: 1250px;
   width: 75%;
   margin: 10px auto 0;
   padding: 10px 0;
-  display: flex;
   justify-content: space-between;
   align-self: flex-end;
 }
