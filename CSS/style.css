@@ -58,7 +58,6 @@ header > div{
   width: 980px;
   background-color: rgba(238,130,238,255);
   margin: auto;
-  vertical-align: auto;
   align-items: center;
 }
 
@@ -112,16 +111,17 @@ main{
   order: -1;
 }
 
-/* header > div{
-  height: 400px;
-  width: 980px;
-  background-color: rgba(238,130,238,255);
+.big-box{
+  height: 800px;
+  width: 100%;
   margin: auto;
-  vertical-align: auto;
+  display: flex;
   align-items: center;
-} */
+}
 
 .square-green{
-  width: 500px;
+  width: 1250px;
+  height: 700px;
   background-color: rgba(34,139,34,255);
+  margin: auto;
 }
