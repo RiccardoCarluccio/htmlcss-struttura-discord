@@ -9,8 +9,8 @@
 }
 
 nav{
-  background-color: rgba(173,216,230,255);
   min-height: 100px;
+  background-color: rgba(173,216,230,255);
   display: flex;
 }
 
@@ -62,9 +62,17 @@ header > div{
 }
 
 hr{
+  border: none;
+}
+
+hr:first-of-type{
   height: 5px;
   background-color: rgba(173,216,230,255);
-  border: none;
+}
+
+hr:nth-of-type(2){
+  height: 3px;
+  background-color: rgba(193,194,194,255);
 }
 
 main{
@@ -72,7 +80,7 @@ main{
   flex-wrap: wrap;
 }
 
-.flex-container-main{
+.flex-container{
   display: flex;
   width: 100%;
 }
@@ -83,12 +91,24 @@ main{
   display: flex;
 }
 
+.bg-celeste{
+  
+}
+
 .bg-white{
   background-color: white;
 }
 
 .bg-grey{
   background-color: rgba(211,211,211,255);
+}
+
+.bg-black{
+  background-color: rgba(35,39,42,255);
+}
+
+.bg-aquamarine{
+  background-color: rgba(127,255,212,255);
 }
 
 .box{
@@ -124,4 +144,40 @@ main{
   height: 700px;
   background-color: rgba(34,139,34,255);
   margin: auto;
+}
+
+.square-salmon{
+  width: 416px;
+  background-color: rgba(240,128,128,255);
+}
+
+.square-teal{
+  width: 208px;
+  background-color: rgba(32,178,170,255);
+}
+
+.flex-container-outro{
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-container{
+  display: flex;
+  height: 90px;
+  max-width: 1250px;
+  width: 75%;
+  margin: 10px auto 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.footer-container div{
+  background-color: rgba(218,165,32,255);
+  padding: 5px;
+  font-size: 30px;
+  align-self: center;
+  border: 2px dashed black;
 }
