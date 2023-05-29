@@ -91,10 +91,6 @@ main{
   display: flex;
 }
 
-.bg-celeste{
-  
-}
-
 .bg-white{
   background-color: white;
 }
@@ -146,6 +142,18 @@ main{
   margin: auto;
 }
 
+.flex-container-rectangles{
+  height: 650px;
+  margin: -35px auto auto;
+  display: flex;
+}
+
+.box-long{
+  margin: auto;
+  align-items: center;
+  height: 550px;
+}
+
 .square-salmon{
   width: 416px;
   background-color: rgba(240,128,128,255);
@@ -175,7 +183,7 @@ main{
 }
 
 .footer-container div{
-  background-color: rgba(218,165,32,255);
+  background-color: rgba(255,182,193,255);
   padding: 5px;
   font-size: 30px;
   align-self: center;
