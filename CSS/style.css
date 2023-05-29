@@ -15,13 +15,13 @@
 nav{
   min-height: 100px;
   background-color: rgba(173,216,230,255);
+  justify-content: center;
 }
 
 .nav-container{
   height: 80px;
   max-width: 1180px;
   width: 75%;
-  margin: auto;
   padding: 10px 0;
   justify-content: space-between;
   align-self: center;
@@ -52,13 +52,14 @@ nav{
 header{
   height: 500px;
   background-color: rgba(0,0,139,255);
+  justify-content: center;
+  align-items: center;
 }
 
 header > div{
   height: 400px;
   width: 980px;
   background-color: rgba(238,130,238,255);
-  margin: auto;
   align-items: center;
 }
 
@@ -82,11 +83,12 @@ main{
 
 .container{
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-squares{
   height: 550px;
-  margin: auto;
 }
 
 .bg-white{
