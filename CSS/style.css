@@ -76,7 +76,7 @@ hr:first-of-type{
   background-color: rgba(173,216,230,255);
 }
 
-hr:nth-of-type(2){
+hr:nth-of-type(2){      /*da dare i margini a questo hr invece che agli elementi sopra e sotto */
   height: 3px;
   background-color: rgba(193,194,194,255);
 }
