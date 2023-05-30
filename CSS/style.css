@@ -8,6 +8,10 @@
   border: 2px dashed black;
 }
 
+.dashed-wborder{
+  border: 2px dashed white;
+}
+
 .flexbox{
   display: flex;
 }
@@ -36,7 +40,7 @@ nav{
 }
 
 .nav-container div:first-child{
-  flex-grow: 1;
+  flex-grow: 1;   /* può essere sufficiente un solo flex grow al 2nd */
 }
 
 .nav-container div:nth-child(2){
@@ -114,7 +118,7 @@ main{
 }
 
 .square-celeste{
-  width: 750px;
+  width: 750px;       /* da cambiare in percentuale? ma mettere dimensioni al padre */
   background-color: rgba(30,144,255,255);
 }
 
